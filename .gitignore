@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env # KEEP THIS LINE! It ensures your .env file is NOT committed!
+
+# Distributions
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.Python
+.venv/
+
+# Specific files
+.DS_Store # macOS specific
+.idea/ # IntelliJ/PyCharm specific
+*.log
+npm-debug.log*
+.flaskenv # Flask specific env file (alternative to .env)
+
+# Database files
+*.sqlite3
+*.db
